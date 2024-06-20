@@ -53,4 +53,3 @@ Submit your document and GitHub repository link through the designated platform 
 
 Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
 Answers to the Assingment 
-file:///C:/Users/User/Documents/MY%20PERSONAL%20INFO/Answers%20to%20the%20Assignment.htm 
