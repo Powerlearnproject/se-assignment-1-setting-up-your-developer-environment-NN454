@@ -1,56 +1,81 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vbnbTt5m)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15295896&assignment_repo_type=AssignmentRepo)
-# Dev_Setup
-Setup Development Environment
+Answers to the Assignment – Developer Environment set-up
+	Setting up an Operating System {Windows 11}
+Step 1
+To be able to install Windows 11 navigate to Microsoft.com (Download Windows 11 (microsoft.com) click the download button   
 
-#Assignment: Setting Up Your Developer Environment
+Step 2
+Select create tool now and Follow the instruction of the installation process
+Installation process 
+Insert your USB flash and burn the window and then press any of the product key that you will promoted to after that choose the installation type whether the Custom(installing a fresh copy of windows ) or upgrade ( this is where u upgrade your windows from maybe 10 to 11 so you will choose to keep your files )
+After the installation process your PC will restart and u are set to go 
+                                         I have already installed mine 
+                  
+ 
 
-#Objective:
-This assignment aims to familiarize you with the tools and configurations necessary to set up an efficient developer environment for software engineering projects. Completing this assignment will give you the skills required to set up a robust and productive workspace conducive to coding, debugging, version control, and collaboration.
+	IDE Installation 
+Installing Visual Studio code 
+Step 1
+Follow the link below Download Visual Studio Code - Mac, Linux, Windows to download VS Code 
+ 
+Click for windows or any operating system that u are using then click download , when it is done downloading go to file explorer you will find it there 
+ 
 
-#Tasks:
+It will direct u to the installation process accept the agreement  and click next  choose the path you want your VS code to be in .  
+ 
+It will start installing and when it done you will have your VS Code running and ready to use .
+                    It should look like this                      
+                                             
+ 
+	Set Up Version Control System(Git, GitHub )
+Fist download  Git from the (https://www.git-scm.com/) for windows 
+ 
 
-1. Select Your Operating System (OS):
-   Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
+Run the installer and follow the steps to install it 
+After installing it should show this interface 
+ 
+After installing Git proceed to creating an account to GitHub enter your email account and set your password.
+ 
+When created it should show this interface from there U are supposed to create a repository for your project and make a commit 
+Initialize a Git Repository
+Open Git Bash or the Terminal in VS code 
+Navigate to your project directory 
+--- cd my_project 
+Initialize a Git repository
+--- git init
+You can check the status of your file by putting this command 
+--- git status
+And then add your file 
+---git add 
+Commit the changes using this command 
+---git commit -m "Add detailed description of the changes"
 
-2. Install a Text Editor or Integrated Development Environment (IDE):
-   Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
-3. Set Up Version Control System:
-   Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 
-4. Install Necessary Programming Languages and Runtimes:
-  Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
+	Install Necessary Programming Languages and Runtimes:
+Installing Python you need to go to (Welcome to Python.org)
+ 
+Click the download button and follow the procedure of the installation make sure to check the option to add Python to Path.
+To ensure Python is installed  go to Command promote and put this command 
+--- python - - version  
+ 
+Ensure Python is Up to date and check the Pip if it is installed that is by running this command to Git Bash or Command Prompt 
+	Pip  - -version 
+ 
 
-5. Install Package Managers:
-   If applicable, install package managers like pip (Python).
+	Database Configuration  (MySQL)
+Download MySQL and follow the procedure of the installation 
+ 
+During the process of installation You are supposed to create your MySQL password and remember it from there You can create your database 
+ 
+Once created navigate to your Workbench and the database you have created it will show up there 
+ 
 
-6. Configure a Database (MySQL):
-   Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
-
-7. Set Up Development Environments and Virtualization (Optional):
-   Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
-
-8. Explore Extensions and Plugins:
-   Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
-
-9. Document Your Setup:
-    Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
-
-#Deliverables:
-- Document detailing the setup process with step-by-step instructions and screenshots where necessary.
-- A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
-- A reflection on the challenges faced during setup and strategies employed to overcome them.
-
-#Submission:
-Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
-
-#Evaluation Criteria:**
-- Completeness and accuracy of setup documentation.
-- Effectiveness of version control implementation.
-- Appropriateness of tools selected for the project requirements.
-- Clarity of reflection on challenges and solutions encountered.
-- Adherence to submission guidelines and deadlines.
+	Development Environments and Virtualization
+Navigate to your browser  and download Docker 
+ 
+After it has install You can Check the Version In GitHub or Command Prompt by typing docker—version 
+Challenge Faced
+When downloading MySQL  I did not see the workbench in order to resolve the issue I went back and Downloading the workbench .
 
 Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
 Answers to the Assingment 
-file:///C:/Users/User/Documents/MY%20PERSONAL%20INFO/Answers%20to%20the%20Assignment.htm 
+https://docs.google.com/document/d/1zKMizTHj8e7M9kVXWrFrM0LGC6knmC5G38JR_l4vh6c/edit?usp=drive_link
